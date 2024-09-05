@@ -46,7 +46,6 @@ def poc(target):
             relsult['method'] = 'GET'
             relsult['url'] = target
             relsult['payload'] = vurl
-            relsult['about'] = 'https://blog.csdn.net/yukinorong/article/details/106938717'
         print (f"存在漏洞：{relsult}")
     except:
         print (f"{target}访问失败")
