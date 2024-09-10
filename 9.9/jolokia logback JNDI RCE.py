@@ -49,7 +49,7 @@ def poc(target):
 
 
 def main():
-    parser = argparse.ArgumentParser("Spring Boot jolokia 配置不当导致RCE漏洞检测POC")
+    parser = argparse.ArgumentParser("Spring Boot jolokia logback配置不当导致RCE漏洞检测POC")
     parser.add_argument("-u", "--url", dest="url", help="Insert URL")
     parser.add_argument("-f", "--file", dest="file", help="Insert URLs file")
     args = parser.parse_args()
